@@ -60,6 +60,4 @@ X_centered = X - X.mean(axis=0)
 a, b, Vt = np.linalg.svd(X_centered, full_matrices=False)
 c1 = Vt.T[:, 0]
 
-
-
 print(len(a[0]))
